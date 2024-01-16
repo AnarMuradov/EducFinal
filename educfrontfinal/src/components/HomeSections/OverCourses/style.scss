@@ -1,0 +1,39 @@
+.overCourse{
+    width: 100%;
+    min-height: 800px;
+    &__container{
+        width: 60%;
+        min-height: 800px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__img{
+           img{
+            width: 440px;
+           }
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: flex-start;
+            width: 550px;
+            h2{
+                font-size: 52px;
+            }
+            p{
+                color: #777777;
+            }
+            button{
+                width: 170px;
+                height: 40px;
+                color: white;
+                background-color: skyblue;
+                border: white;
+                border-radius: 5px;
+            }
+
+        }
+    }
+}

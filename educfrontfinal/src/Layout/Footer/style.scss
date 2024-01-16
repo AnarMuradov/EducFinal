@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: #283367;
+    &__container{
+        width: 70%;
+        min-height: 500px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            font-weight: 500;
+            color: white;
+            span{
+                color: #39cfca;
+            }
+        }
+        &__icon{
+            display: flex;
+            gap: 20px;
+            i{
+                color: white;
+                width: 40px;
+                line-height: 40px;
+                text-align: center;
+                background-color: #3e4876;
+                cursor: pointer;
+                transition: 300ms;
+                &:hover{
+                    background-color: lightblue;
+                }
+            }
+        }
+    }
+}
